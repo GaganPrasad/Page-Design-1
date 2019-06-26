@@ -1,0 +1,181 @@
+
+<?xml version = "1.0" encoding= "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <!--Style-->
+    <style media="screen">
+    html {
+      scroll-behavior: smooth;
+    }
+    body{
+      font-family: sans-serif;
+      background-color: #F2F3F4;
+      font-size: 2.5vh;
+      color: #303030;
+      box-sizing: border-box;
+    }
+    .container{
+      width: 70%;
+      margin: 0 auto;
+    }
+    h1{
+      color: yellowgreen;
+      text-transform: uppercase;
+    }
+    .main{
+      text-align: center;
+
+    }
+    .main::after{
+      content: '';
+      display: block;
+      background-color: #CACFD2;
+      width: 5%;
+      height: .2vh;
+      margin: 1vh auto;
+      transition: ease-in-out 250ms;
+    }
+    .main:hover::after{
+      width: 15%;
+    }
+    .image{
+      background: url('/BG8.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      box-shadow: 10px 10px 20px #CACFD2;
+      transition: ease-in-out 250ms;
+    }
+    .image:hover{
+      transform: scale(1.05);
+    }
+    p{
+      text-align: justify;
+    }
+    blockquote{
+      text-align: justify;
+    }
+    hr{
+      width: 60%;
+      background-color: #CACFD2;
+      height: .3vh;
+      border: 0;
+    }
+    .side{
+      margin: 0;
+      width: 40%;
+    }
+    a{
+      text-decoration: none;
+      transition: ease-in-out 250ms;
+    }
+    ol li{
+      padding: 1vh 0;
+    }
+    ul li{
+      padding: .5vh 0;
+    }
+    ol li a{
+      color: #303030;
+    }
+    ul li a{
+      color: #66615E;
+    }
+    ul li a:hover{
+      color: #303030;
+      font-size: 3vh;
+    }
+
+    </style>
+    <!--Title of the page-->
+    <title>Home</title>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="main">Chess</h1>
+      <!--Circular Image-->
+      <div class="image"></div>
+
+      <p>
+        Chess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga some time before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi, janggi, and shogi. Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania. The pieces assumed their current powers in Spain in the late 15th century; the modern rules were standardized in the 19th century.
+      </p>
+      <p>
+        Play does not involve hidden information. Each player begins with <strong>16 pieces:</strong> one <strong>king</strong>, one <strong>queen</strong>, two <strong>rooks</strong>, two <strong>knights</strong>, two <strong>bishops</strong>, and eight <strong>pawns</strong>. Each of the six piece types moves differently, with the most powerful being the queen &amp the least powerful the pawn. The objective is to checkmate the opponent's king by placing it under an inescapable threat of capture. To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game, play typically involves making exchanges of one piece for an opponent's similar piece, but also finding and engineering opportunities to trade advantageously, or to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or (in a timed game) runs out of time. There are also several ways that a game can end in a draw.
+      </p>
+      <hr>
+      <p><blockquote>
+        The first generally recognized World Chess Champion, Wilhelm Steinitz, claimed his title in 1886. Since 1948, the World Championship has been regulated by the Fédération Internationale des Échecs (FIDE), the game's international governing body. FIDE also awards life-time master titles to skilled players, the highest of which is grandmaster. Many national chess organizations have a title system of their own. FIDE also organizes the Women's World Championship, the World Junior Championship, the World Senior Championship, the Blitz and Rapid World Championships, and the Chess Olympiad, a popular competition among international teams. FIDE is a member of the International Olympic Committee, which can be considered as a recognition of chess as a sport. Several national sporting bodies (for example the Spanish <em>Consejo Superior de Deportes</em>) also recognize chess as a sport. Chess was included in the 2006 and 2010 Asian Games. There is also a Correspondence Chess World Championship and a World Computer Chess Championship. Online chess has opened amateur and professional competition to a wide and varied group of players.
+      </blockquote></p>
+      <hr>
+
+      <div class="list-content">
+        <h1>Content</h1>
+
+        <ol>
+          <li><a href="#">Rules</a>
+            <ul>
+              <li><a href="#setup">Setup</a></li>
+              <li><a href="#movement">Movement</a></li>
+              <li><a href="#casting">Casting</a></li>
+              <li><a href="#">En passant</a></li>
+              <li><a href="#">Promotion</a></li>
+              <li><a href="#">Check</a></li>
+              <li><a href="#">End of the game</a></li>
+              <li><a href="#">Time control</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Phases</a>
+            <ul>
+              <li><a href="#">Opening</a></li>
+              <li><a href="#">Middle game</a></li>
+              <li><a href="#">End game</a></li>
+            </ul>
+          </li>
+        </ol>
+
+      </div>
+      <div id="setup">
+        <h1>Setup</h1>
+        <hr class="side">
+        <p>
+          Chess is played on a square board of eight rows (called ranks, denoted 1 to 8) and eight columns (called files, denoted a to h). The 64 squares alternate in color and are referred to as light and dark squares. The chessboard is placed with a light square at the right-hand end of the rank nearest to each player.
+        </p>
+        <p>
+          By convention, the game pieces are divided into white and black sets, and the players are referred to as White and Black, respectively. Each player begins the game with 16 pieces of the specified color, consisting of one king, one queen, two rooks, two bishops, two knights, and eight pawns. The pieces are set out as shown in the diagram and photo, with each queen on a square of its own color (the white queen on a light square; the black queen on a dark square).
+        </p>
+      </div>
+      <div id="movement">
+        <h1>Movement</h1>
+        <hr class="side">
+        <p>
+          The player with the white pieces always moves first. After the first move, players alternate turns, moving one piece per turn (except for castling, when two pieces are moved). Pieces are moved to either an unoccupied square or one occupied by an opponent's piece, which is captured and removed from play. With the sole exception of en passant, all pieces capture by moving to the square that the opponent's piece occupies. A player may not make any move that would put or leave the player's own king under attack. A player cannot "pass" a turn; one must make a legal move (this is the basis for the finesse called zugzwang).
+        </p>
+        <p>
+          If the player to move has no legal move, the game is over; the result is either checkmate (a loss for the player with no legal move) if the king is in check, or stalemate (a draw) if the king is not.
+        </p>
+        <p>
+          Each piece has its own way of moving. In the diagrams, the dots mark the squares to which the piece can move if there are no intervening piece(s) of either color (except the knight, which leaps over any intervening pieces).
+        </p>
+      </div>
+      <div id="casting">
+        <h1>Casting</h1>
+        <hr class="side">
+        <p>Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares along the first rank toward a rook (that is on the player's first rank[note 2]) and then placing the rook on the last square that the king just crossed. Castling is permissible if the following conditions are met:</p>
+        <ul>
+          <li>Neither the king nor the rook have previously moved during the game.</li>
+          <li>There cannot be any piece(s) between the king and the rook.</li>
+          <li>The king cannot be in check, nor can the king pass through any square that is under attack by an enemy piece, or move to a square that would result in check. (Note that castling is permitted if the rook is attacked, or if the rook crosses an attacked square.)</li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
